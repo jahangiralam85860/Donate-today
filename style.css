@@ -7,9 +7,9 @@ body{
 }
 /* ...............Heading section add................ */
 .heading{
-    background-image: url(images/donation1.jpg);
+    background-size: cover;    
     background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(images/donation1.jpg);
 }
 .heading h1{
     font-size: 70px;
@@ -20,20 +20,71 @@ body{
     padding: 200px 20px 20px 20px;
 }
 .heading p{
-    color: #ffffff;
     font-size: 18px;
+    color: #ffffff;
     text-align: center;
-    padding: 25px 200px;
+    padding: 0px 200px;
 }
 .heading h3{
-    padding: 50px;
     width: 150px;
     margin: 0 auto;
+    padding:44px 0px 200px 0px;
 }
 .heading h3 a{
     padding: 15px;
     color: #ffffff;
     border-radius: 8px;
-    background-color: tomato;
     text-decoration: none;
+    background-color: #FF5959;
+}
+.Donate-area{
+    margin-top: 130px;
+    text-align: center;
+}
+.Donate-area h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #000000;
+}
+.Donate-area p{
+    padding: 0px 200px;
+}
+.Amount{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.Donate{
+    width: 200px;
+    padding: 40px 10px;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    margin: 60px 10px 10px 10px;
+}
+.style{
+    border-radius: 10px;
+    border: 3px solid red;
+    background-color: #FFEEEE;
+}
+.Donate-area h2{
+    font-weight: 100;
+    color: #B3B3B3;
+    margin:60px 0px 10px 0px;
+}
+hr{
+    width: 1200px;
+    margin: 0 auto; 
+}
+/* .......button style...... */
+.Donate-area h3{
+    width: 150px;
+    margin: 0 auto;
+    padding:50px 0px 200px 0px;
+}
+.Donate-area h3 a{
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #FF5959;
 }
