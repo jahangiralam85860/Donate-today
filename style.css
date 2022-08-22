@@ -1,8 +1,39 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
+body{
+    font-family: 'Poppins', sans-serif;   
+}
+/* ...............Heading section add................ */
 .heading{
     background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 200px 20px 20px 20px;
+}
+.heading p{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 200px;
+}
+.heading h3{
+    padding: 50px;
+    width: 150px;
+    margin: 0 auto;
+}
+.heading h3 a{
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: tomato;
+    text-decoration: none;
 }
