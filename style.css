@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Poppins', sans-serif;   
+    font-family: 'Poppins', sans-serif;
 }
 /* ...............Heading section add................ */
 .heading{
@@ -97,7 +97,8 @@ hr{
 }
 .Donate-plan h1{
     font-size: 60px;
-    font-weight: 700;
+    font-weight: bold;
+    font-family: 400;
     color: #000000;
 }
 .Donate-plan p{
@@ -188,4 +189,66 @@ hr{
 .donate-img img{
     width: 100%;
     float: right;
+    border-radius: 10px;
+}
+/* ........Updates........ */
+.Updates{
+    text-align: center;
+    margin-top: 100px;     
+}
+.Updates h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    font-family: 400;
+}
+.Updates p{
+    color: #959595;
+    font-size: 18px;
+    padding: 10px 200px;
+}
+form{
+    margin: auto;
+    margin-top: 30px;
+    width: 700px;
+    background-color: #FFF4D6;
+    height: 150px;
+}
+.input{
+    margin-top: 58px;
+    font-size: 22px;
+    padding: 10px;
+    border: none;
+    background-color: #D9D9D9;
+}
+.submit{
+    margin-top: 58px;
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #FF5959;
+}
+text{
+    font-size: 10px;
+}
+
+
+/* .........footer add ......... */
+.footer{
+    text-align: center;
+    background-color: #0B0D17;
+    height: 200px;
+}
+.footer h2{
+    color: #ffffff;
+    padding-top: 50px;
+    margin: 30px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer p{
+    color: #ffffff;
+    font-size: 12px;
 }
