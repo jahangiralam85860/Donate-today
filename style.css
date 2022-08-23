@@ -178,6 +178,7 @@ hr{
 .donation-part2{
     display: flex;
     padding: 80px;
+    justify-content: center;
 }
 .donate-contant-part2{
     width:40%;
@@ -197,7 +198,7 @@ hr{
     margin-bottom: 20px;
 }
 .donation-img img{
-    width: 500px;
+    width: 100%;
 }
 .button-part2{
     text-decoration: none;
