@@ -41,7 +41,7 @@ body{
     margin-top: 130px;
     text-align: center;
 }
-.Donate-area h1{
+.Donate-title{
     font-size: 60px;
     font-weight: 700;
     color: #000000;
@@ -56,6 +56,8 @@ body{
 }
 .Donate{
     width: 200px;
+    /* font-size: 20px; */
+    overflow: hidden;
     padding: 40px 10px;
     border-radius: 10px;
     background-color: #FAFAFA;
@@ -79,7 +81,7 @@ hr{
 .Donate-area h3{
     width: 150px;
     margin: 0 auto;
-    padding:50px 0px 200px 0px;
+    padding:50px 0px 80px 0px;
 }
 .Donate-area h3 a{
     padding: 15px;
@@ -87,4 +89,103 @@ hr{
     border-radius: 8px;
     text-decoration: none;
     background-color: #FF5959;
+}
+
+.Donate-plan{
+    margin-top: 30px;
+    text-align: center;
+}
+.Donate-plan h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #000000;
+}
+.Donate-plan p{
+    padding: 0px 200px;
+}
+.Donate-item{
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+.items{
+    width: 25%;
+    margin: 10px;
+    text-align: left;
+    padding: 40px 0px 40px 25px;
+} 
+.items img{
+    margin-bottom: 20px;
+    margin: 50px 0px 10px 15px;
+} 
+.items h2{
+    margin-bottom: 20px;
+}
+.items h5{
+    margin-right: 15px;
+}
+.bg-1{
+    background-color: #EDF5F6;
+}
+.bg-2{
+    background-color: #FFEEEE;
+}
+.bg-3{
+    background-color: #EDF5F6;
+}
+/* ........Donation......... */
+.Donation{
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+.left{
+    /* width: 600px; */
+    float: left;
+}
+.left h1{
+    font: 60\px;
+    font-weight: 700;
+}
+.right{
+    /* width: 300px; */
+    float: right;
+}
+
+.donation{
+    display: flex;
+    margin-top: 30px;
+}
+.donate-contant{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.donate-contant h1{
+    font-size: 40px;
+    margin-top: 45px;
+    
+}
+.donate-contant p{
+    font-size: 18px;
+    color: #7D7D7D;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.donate-img img{
+    width: 500px;
+}
+.button{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.donate-img img{
+    width: 100%;
+    float: right;
 }
