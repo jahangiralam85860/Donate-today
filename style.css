@@ -230,10 +230,38 @@ hr{
     float: right;
     border-radius: 10px;
 }
+/* ............Extra.......... */
+.sub-header{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+    font-family: 400;
+}
+.Bonus{
+    display: flex;
+    padding: 50px 120px;
+    margin-top: 0px;
+}
+.content img{
+    width: 80%;
+    padding: 20px;
+    justify-content: center;
+}
+.content h2{
+    text-align: left;
+    padding: 10px 60px 10px 0px;
+}
+.content p{
+    color: #7D7D7D;
+    text-align: left;
+    padding: 0px 50px 0px 0px;
+}
+
+
 /* ........Updates........ */
 .Updates{
     text-align: center;
-    margin-top: 100px;     
+    margin-top: 20px;     
 }
 .Updates h1{
     font-size: 60px;
