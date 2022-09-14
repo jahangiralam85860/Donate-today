@@ -141,6 +141,7 @@ hr{
 .donation{
     display: flex;
     margin-top: 80px;
+    padding: 100px;
     justify-content: center;
 }
 .donate-contant{
@@ -222,8 +223,9 @@ hr{
 }
 .Bonus{
     display: flex;
-    padding: 50px 120px;
     margin-top: 0px;
+    justify-content: center;
+    padding: 50px 120px;
 }
 .content img{
     width: 80%;
